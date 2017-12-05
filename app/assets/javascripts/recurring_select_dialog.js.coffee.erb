@@ -164,8 +164,8 @@ window.RecurringSelectDialog =
       else
         //@never_option = @outer_holder.find "input[name='rs_termination'][value='never']"
         //@never_option.prop('checked', true)
-        @after_option = @outer_holder.find "input[name='rs_termination'][value='after']"
-        @after_option.prop('checked', true)
+        @never_option = @outer_holder.find "input[name='rs_termination'][value='after']"
+        @never_option.prop('checked', true)
         
 
       @all_termination_options = @outer_holder.find ".rs_termination_section input[type='radio'], #rs_occurrence_count, #rs_until_date"
